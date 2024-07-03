@@ -14,8 +14,7 @@ select count(*) from oscar_database.indicados_ao_oscar where nome_do_indicado = 
 ```sql
 select count(*) from oscar_database.indicados_ao_oscar where nome_do_indicado = "Amy Adams" and vencedor = 'true';
 ```
-4. 
-A série de filmes Toy Story ganhou um Oscar em quais anos?
+4. A série de filmes Toy Story ganhou um Oscar em quais anos?
 ```sql
 select * from oscar_database.indicados_ao_oscar WHERE nome_do_filme like '%Toy Story%';
 ```
